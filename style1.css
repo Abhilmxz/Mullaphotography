@@ -262,7 +262,7 @@
   }
 
   .client_section .client_container {
-    background-image: url(images/mulla-bg.png);
+    background-image: url(./images/mulla-bg.png);
     background-size: 90% 100%;
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -396,8 +396,8 @@
     width: 100%;
   }
 
-   @import url(css/flaticon.css);
-    @import url(css/font-awesome.min.css);
+   @import url(./css/flaticon.css);
+    @import url(./css/font-awesome.min.css);
 
 
 body {
@@ -706,6 +706,6 @@ body.demos .container-fluid {
 
   @font-face {
     font-family: "SnellBT Regular";
-    src: url('fonts/SnellBT-Regular.otf');
-    src: url('fonts/SnellBT-Bold.otf');
+    src: url('./fonts/SnellBT-Regular.otf');
+    src: url('./fonts/SnellBT-Bold.otf');
   }
