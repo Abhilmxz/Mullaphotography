@@ -396,6 +396,57 @@
     width: 100%;
   }
 
+  .client_section .carousel-indicators {
+    position: unset;
+    margin: 0;
+    margin-top: 45px;
+  }
+
+  .client_section .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #2a2a2a;
+    opacity: 1;
+  }
+
+  .client_section .carousel-indicators li.active {
+    background-color: #a04120;
+  }
+
+  .client_section .carousel_btn-box {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: 3;
+  }
+
+  .client_section .carousel_btn-box .carousel-control-prev,
+  .client_section .carousel_btn-box .carousel-control-next {
+    position: unset;
+    width: 55px;
+    height: 55px;
+    font-size: 12px;
+    background-color: #ffffff;
+    opacity: 1;
+    color: #a04120;
+    margin: 2.5px 0;
+  }
+
+  .client_section .carousel_btn-box .carousel-control-prev:hover,
+  .client_section .carousel_btn-box .carousel-control-next:hover {
+    color: #46200b;
+  }
+
    @import url(./css/flaticon.css);
     @import url(./css/font-awesome.min.css);
 
